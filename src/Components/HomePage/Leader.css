@@ -7,19 +7,19 @@
     justify-content: center;
     align-items: center;
 }
-h1{
+/* h1{
     color:#FBFFB9;
     padding-bottom: 30px; 
     padding-top:5rem;
    
-}
+} */
 .content{
     display: flex ;
     justify-content: center;
     align-items: center;
     width: 100vw;
 }
-p{
+/* p{
     color: white;
     width: 60%;
     padding-left: 2rem;
@@ -29,7 +29,7 @@ p{
     text-align: justify;
     margin: auto;
     margin-right: 100px;
-}
+} */
 /* img{
     height: 30vh;
     width: 35vw;

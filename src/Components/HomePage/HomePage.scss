@@ -10,6 +10,9 @@ $color9: #1B2479;
 $color10: #1F389A;
 $color11: #FBFF94;
 $color12: #B5B5B5;
+$color13: #9AA7BF;
+$color14: #F6F5F4;
+$color15: #141B5F;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
@@ -36,7 +39,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 2;
-    background-color: #F6F5F4;
+    background-color: $color14;
     &__navcomp1{
         display: flex;
         align-items: center;
@@ -227,11 +230,11 @@ body {
 .Features{
     width: 80%;
     margin: 2rem auto;
-    color: white;
+    color: $color3;
     &__Heading{
         text-align: center;
         padding: 1rem 0;
-        color: #FBFF94;
+        color: $color11;
     }
 
     &__Features_menu {
@@ -239,18 +242,18 @@ body {
             width: 100%;
             display: flex;
             justify-content: space-around;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid $color3;
             padding: 0;
     
             a {
-                color: white !important;
+                color: $color13 !important;
                 text-decoration: none;
                 cursor: pointer;
                 padding: 0 0.5rem;
                 transition: all 0.3s ease;
     
                 &.active {
-                    border-bottom: 5px solid white;
+                    border-bottom: 5px solid $color3;
                 }
             }
         }
@@ -262,8 +265,8 @@ body {
     padding-top: 2rem;
 
     &-img img {
-        width: 26vw !important;
-        height: 52vh !important;
+        width: 25vw !important;
+        height: 45vh !important;
     }
 
     &-content {
@@ -271,25 +274,77 @@ body {
         flex-direction: column;
         margin-left: 1rem;
         text-align: left;
+        &-heading {
+            font-size: 1.5rem;
+            font-weight: bolder;
+            color: $color12;
+        }
+        &-text {
+            padding: 1rem 0 0.5rem 0;
+            font-size: .9rem;
+            color: $color12;
+        }
     }
 
-    &-content-heading {
-        font-size: 1.5rem;
-        font-weight: bolder;
-        color: #B5B9DA;
-    }
 
-    &-content-text {
-        font-size: .8rem;
-        color: #B5B9DA;
-    }
 }
 
 .carousel.carousel-slider .control-arrow:hover {
     background: none !important;
   }
 
-// Home Page Our Featues Styling
+// Home Page Our Features Styling
+
+// Home Page Our Projects Styling
+
+.OurProject__Div{
+    background-color: $color15;
+    &__heading{
+      color: #FBFFB9;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    &__container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 1rem;
+      width: 80%;
+      margin: 0 auto;
+  
+      &__imageContainer{    
+        text-align: center;
+        margin-bottom: 2rem;
+        width: 32%;
+        padding: .25rem;
+        &-image{
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+  
+        &-heading{
+          color: #E4E4E4;
+          font-size: 1.1rem;
+          padding-top: 1rem;
+          text-align: left;
+        }
+  
+        &-caption{
+          margin-top: 1rem;
+          font-size: 1rem;
+          text-align: left;
+          font-weight: 200;
+          color: #A0A5D1;
+        }
+      }
+  
+    }
+}
+
+// Home Page Our Projects Styling
 
 // Home Page Media Queries
 
@@ -360,10 +415,11 @@ body {
 
     .ourfeaturecomp1 {
         display: flex;
-
-        &-img img {
-            width: 26vw !important;
-            height: 52vh !important;
+        &-img{
+            img {
+                width: 26vw !important;
+                height: 42vh !important;
+            }
         }
 
         &-content {
@@ -371,16 +427,30 @@ body {
             flex-direction: column;
             margin-left: 1rem;
             text-align: left;
+            &-heading {
+                font-size: 1.5rem;
+                font-weight: bolder;
+            }
+            &-text {
+                padding: 1rem 0 0.5rem 0;
+                font-size: .8rem;
+            }
         }
+    }
 
-        &-content-heading {
-            font-size: 1.5rem;
-            font-weight: bolder;
-        }
-
-        &-content-text {
-            padding-top: .5rem;
-            font-size: .8rem;
+    .OurProject__Div{
+        &__container{
+          width: 100%;
+          flex-wrap: nowrap;
+  
+          &__imageContainer{
+            &-heading{
+                font-size: 1rem;
+            }
+            &-caption{
+              font-size: .85rem;
+            }
+          }
         }
     }
 }

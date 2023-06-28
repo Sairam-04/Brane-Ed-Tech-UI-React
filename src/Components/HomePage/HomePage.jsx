@@ -11,14 +11,12 @@ const HomePage = () => {
   return (
     <>
         <NavComponent />
-        <div className='Home__Div'>
-            <HomeChild1 />
-        </div>
+        <HomeChild1 />
         <Features />
         <Ourproject />
         <Leader />
-        <ParentsVoice />
-        <Footer />
+        {/* <ParentsVoice />
+        <Footer /> */}
     </>
   )
 }

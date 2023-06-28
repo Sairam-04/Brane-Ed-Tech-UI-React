@@ -74,6 +74,8 @@ const Features = () => {
                 esse tenetur facere perferendis reprehenderit quas itaque enim
                 doloribus delectus, recusandae, a cumque saepe rem adipisci,
                 sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam. doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
                 repellendus ad maiores cum magnam.
               </div>
             </div>
@@ -91,7 +93,14 @@ const Features = () => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
                 dolorum quo sint saepe dolorem totam consectetur pariatur labore
                 tempore vitae, soluta, voluptatibus nulla reiciendis commodi
-                mollitia recusandae voluptates non nisi.
+                mollitia recusandae voluptates non nisi. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Ad placeat veritatis quam
+                esse tenetur facere perferendis reprehenderit quas itaque enim
+                doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam. doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam.
               </div>
             </div>
           </div>
@@ -108,7 +117,14 @@ const Features = () => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
                 dolorum quo sint saepe dolorem totam consectetur pariatur labore
                 tempore vitae, soluta, voluptatibus nulla reiciendis commodi
-                mollitia recusandae voluptates non nisi.
+                mollitia recusandae voluptates non nisi. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Ad placeat veritatis quam
+                esse tenetur facere perferendis reprehenderit quas itaque enim
+                doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam. doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam.
               </div>
             </div>
           </div>
@@ -125,7 +141,14 @@ const Features = () => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
                 dolorum quo sint saepe dolorem totam consectetur pariatur labore
                 tempore vitae, soluta, voluptatibus nulla reiciendis commodi
-                mollitia recusandae voluptates non nisi.
+                mollitia recusandae voluptates non nisi. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Ad placeat veritatis quam
+                esse tenetur facere perferendis reprehenderit quas itaque enim
+                doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam. doloribus delectus, recusandae, a cumque saepe rem adipisci,
+                sunt necessitatibus tempore accusamus dolorem eos. Nulla
+                repellendus ad maiores cum magnam.
               </div>
             </div>
           </div>
