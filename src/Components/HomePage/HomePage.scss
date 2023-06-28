@@ -1,0 +1,386 @@
+$color1: #FFEC47;
+$color2: #171515;
+$color3: #FFFFFF;
+$color4: #F1E8E8;
+$color5: #A1ECFF;
+$color6: #A0A5D1;
+$color7: #FFA354;
+$color8: #D8D8D8;
+$color9: #1B2479;
+$color10: #1F389A;
+$color11: #FBFF94;
+$color12: #B5B5B5;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: $color3;
+    background: $color9;
+}
+
+//   Home Page child 1 Styling
+.Navbar__Div{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #F6F5F4;
+    &__navcomp1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        &__logo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 22vw;
+                height: 6vh;
+                cursor: pointer;
+            }
+        }
+
+        &__navContent{
+            display: inline-flex;
+            list-style: none;
+            li a{
+                color: $color2;
+                text-decoration: none;
+                font-size: .85rem;
+                padding: .25rem 1.25rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__navcomp2{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-left: 3rem;
+        button{
+            margin: 0 .25rem;
+            border: none;
+            border-radius: 20px;
+            opacity: 1;
+            padding: .5rem 1.25rem;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer !important;
+            font-size: 1vw;
+            color: $color3;
+        }
+        .login-btn{
+            background-color: $color10;
+        }
+        .signup-btn{
+            background-color: $color7;
+        }
+    }
+
+    &__Hamburger{
+        display: none;
+        position: relative;
+
+        & .toggledropdown {
+            position: absolute;
+            top: 99%;
+            right: -36px;
+            background-color: $color3;
+            width: 30vw;
+            padding: 1rem 0;
+            max-width: 300px;
+
+            ul{
+                list-style: none;
+                padding: 0;
+                text-align: left;
+
+                li{
+                    margin-bottom: 0.5rem;
+                    padding-bottom: .75rem;
+                    border-bottom: 1px solid $color12;
+
+                    a{
+                        color: $color2;
+                        text-decoration: none;
+                        font-size: 1.7vw;
+                        padding: 0.25rem 1.25rem;
+                    }
+                }
+            }
+          }
+
+    }
+
+}
+
+.active{
+    color: $color9 !important;
+}
+
+.Home__Div{
+    width: 80%;
+    margin: 0 auto;
+    &__Child1{
+        display: flex;
+        &__title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem 0 1.5rem 0;
+            >div:nth-child(1){
+                font-size: 11vw;
+                font-weight: 700;
+                line-height: 100%;
+                text-shadow: .6vw 1.2vw 0 rgb(0,0,0,0.15);
+            } 
+            
+            >div:nth-child(2){
+                font-size: 8.7vw;
+                color: $color5;
+                text-shadow: .2vw .5vw 0 rgb(0,0,0,0.15);
+                font-weight:600;
+                display: flex;
+                justify-content: flex-end;
+                line-height: 100%;
+            }
+            >div:nth-child(3){
+                font-size: .9rem;
+                color: $color6;
+                padding: 1rem 1.5rem 0 .5rem;
+                font-weight: 300;
+                :first-child{
+                    width: 80%;
+                }
+            }
+
+            >div:last-child{
+                padding: 1rem 0 0 .5rem;
+
+                button{
+                    color: $color2;
+                    border:none;
+                    background-color: $color11;
+                    cursor: pointer;
+                    border-radius: 2rem;
+                    padding: 0.5rem 0.75rem;
+                    font-size: .9rem;
+                    font-weight: 500;
+                }
+            }
+
+        }
+
+        &__image{
+            position: relative;
+            right: 7rem;
+            z-index: 1;
+            img{
+                height: 80vh;
+                width: 50vw
+            }
+        }
+
+    }
+}
+
+  .dropdown-btns{
+    display: flex;
+    justify-content: space-evenly;
+    padding: .75rem 0 0.5rem 0;
+    button{
+        &:nth-child(1){
+            width: 4.5rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 2rem;
+            font-size: 1.75vw;
+            background-color: $color7;
+            color: $color3;
+        }
+        &:nth-child(2){
+            width: 4.5rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 2rem;
+            font-size: 1.75vw;
+            background-color: $color10;
+            color: $color3;
+        }
+    }
+
+  }
+
+// Home Page Child 1 Styling
+
+// Home Page Our Featues Styling
+
+.Features{
+    width: 80%;
+    margin: 2rem auto;
+    color: white;
+    &__Heading{
+        text-align: center;
+        padding: 1rem 0;
+        color: #FBFF94;
+    }
+
+    &__Features_menu {
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid white;
+            padding: 0;
+    
+            a {
+                color: white !important;
+                text-decoration: none;
+                cursor: pointer;
+                padding: 0 0.5rem;
+                transition: all 0.3s ease;
+    
+                &.active {
+                    border-bottom: 5px solid white;
+                }
+            }
+        }
+    }
+}
+
+.ourfeaturecomp1 {
+    display: flex;
+    padding-top: 2rem;
+
+    &-img img {
+        width: 26vw !important;
+        height: 52vh !important;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        text-align: left;
+    }
+
+    &-content-heading {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #B5B9DA;
+    }
+
+    &-content-text {
+        font-size: .8rem;
+        color: #B5B9DA;
+    }
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: none !important;
+  }
+
+// Home Page Our Featues Styling
+
+// Home Page Media Queries
+
+@media (max-width:768px){
+    .Navbar__Div{
+        justify-content: space-between;
+        &__navcomp1{
+            margin-left: 1rem;
+            &__logo{
+                img{
+                    width: 40vw;
+                    height: 2.5rem;
+                    max-width: 44vw;
+                }
+            }
+
+            &__navContent{
+                display: none;
+
+            }
+        }
+
+        &__navcomp2{
+            display: none;
+        }
+        &__Hamburger{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 2.25rem 0 1rem;
+            button{
+                width: 5vw;
+                height: 6vh;
+                border: none;
+                i{
+                    font-size: 1.75rem;
+                    color: $color10;
+                }
+                :hover{
+                    border: 1px solid $color9;
+                    padding: .25rem;
+                }
+            }
+            
+        }
+    }
+
+    .Home__Div{
+        width: 96%;
+        margin: 0 auto;
+
+        &__Child1{
+            &__image{
+                right: 2rem;
+                z-index: 1;
+                img{
+                    height: 75vh;
+                    width: 55vw
+                }
+            }
+        }
+    }
+
+    .Features {
+        width: 96%;
+        margin: 2rem auto;
+    }
+
+    .ourfeaturecomp1 {
+        display: flex;
+
+        &-img img {
+            width: 26vw !important;
+            height: 52vh !important;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            text-align: left;
+        }
+
+        &-content-heading {
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+
+        &-content-text {
+            padding-top: .5rem;
+            font-size: .8rem;
+        }
+    }
+}

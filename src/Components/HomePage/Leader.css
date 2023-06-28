@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.Text{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:#FBFFB9;
+    padding-bottom: 30px; 
+    padding-top:5rem;
+   
+}
+.content{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+p{
+    color: white;
+    width: 60%;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: auto;
+    margin-right: 100px;
+}
+/* img{
+    height: 30vh;
+    width: 35vw;
+    padding-right:10rem ;
+} */
+
+.video{
+        width: 100vw;
+        height: 30vh;
+        /* border-radius: 50px; */
+    }
+
+@media (max-width:768px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-left: 3.7rem;
+    }
+}
