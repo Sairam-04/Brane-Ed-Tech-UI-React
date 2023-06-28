@@ -6,6 +6,7 @@ import ParentsVoice from './ParentsVoice'
 import Leader from './Leader'
 import Footer from './Footer'
 import Ourproject from './Ourproject'
+import LeadersVoice from './LeadersVoice'
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
         <HomeChild1 />
         <Features />
         <Ourproject />
-        <Leader />
+        <LeadersVoice />
         {/* <ParentsVoice />
         <Footer /> */}
     </>

@@ -6,10 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 /* h1{
     color:#FBFFB9;
-    padding-bottom: 30px; 
+    padding-bottom: 30px; r
     padding-top:5rem;
    
 } */
@@ -17,7 +19,8 @@
     display: flex ;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 80%;
+    margin: 0 auto;
 }
 /* p{
     color: white;

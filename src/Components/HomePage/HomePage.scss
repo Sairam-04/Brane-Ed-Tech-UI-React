@@ -346,6 +346,33 @@ body {
 
 // Home Page Our Projects Styling
 
+
+.LeadersVoice__Div{
+    padding: 1rem 0;
+    background-color: #323A86;
+    &__heading{
+        font-size: 2rem;
+        text-align: center;
+        color: $color11;
+        padding: 1rem 0;
+    }
+    &__content{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        &-text{
+            width: 50%;
+            margin: 0 auto;
+            text-align: justify;
+            font-size: .9rem;
+            color: $color6;
+        }
+    }
+}
+
+
 // Home Page Media Queries
 
 @media (max-width:768px){

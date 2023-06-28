@@ -286,6 +286,31 @@ body {
   color: #A0A5D1;
 }
 
+.LeadersVoice__Div {
+  padding: 1rem 0;
+  background-color: #323A86;
+}
+.LeadersVoice__Div__heading {
+  font-size: 2rem;
+  text-align: center;
+  color: #FBFF94;
+  padding: 1rem 0;
+}
+.LeadersVoice__Div__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.LeadersVoice__Div__content-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #A0A5D1;
+}
+
 @media (max-width: 768px) {
   .Navbar__Div {
     justify-content: space-between;

@@ -54,7 +54,7 @@ const Features = () => {
           showThumbs={false}
           infiniteLoop={true}
           autoPlay={true}
-          interval={5000}
+          interval={2000}
           showIndicators={false}
         >
           <div className="ourfeaturecomp1">
