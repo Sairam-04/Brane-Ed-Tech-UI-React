@@ -381,7 +381,6 @@ body {
             video{
                 width: 100%;
                 height: 34vh;
-                border-radius: .5rem;
             }
         }
     }
@@ -421,30 +420,63 @@ body {
 // Support Languages Styling
 
 // News Component Styling
-.Articles__Div {
-  padding: 2rem 0;
-  background-color: $color10;
-  &__slide {
-    display: flex;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 0 auto;
-    font-size: 2rem;
-    &-Heading {
-      width: 50%;
-      color: $color3;
-    }
-    &-Para {
-      width: 50%;
-      margin: 0;
-      color: $color3;
-      font-size: 1rem;
-      text-align: left;
+.NewsComponent__Div{
+  &__Articles__Div {
+    padding: 2rem 0;
+    background-color: $color10;
+    &__slide {
+      display: flex;
+      width: 80%;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      margin: 0 auto;
+      font-size: 2rem;
+      &-Heading {
+        width: 50%;
+        color: $color3;
+      }
+      &-Para {
+        width: 50%;
+        margin: 0;
+        color: $color3;
+        font-size: 1rem;
+        text-align: left;
+      }
     }
   }
-}    
+  &__BoardsLogoDiv{
+    background-color: $color14;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    img{
+      width: 7rem;
+      height: 7rem;
+    }
+  }    
+  &__OurPartners__Div{
+    background: $color18;
+    padding: .8rem 0;
+    &-heading{
+      text-align: center;
+      color: #FBFFB9;
+      font-size: 2.25rem;
+    }
+    &-parent{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem 0;
+      img{
+        width: 11.5rem;
+        height: 3.25rem;
+      }
+    }
+  }
+  
+}
 // News Component Styling
 
 // Footer Styling
@@ -738,8 +770,26 @@ body {
         }
     }
     // News Component Style
-
+    .NewsComponent__Div{
+      &__BoardsLogoDiv{
+        img{
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
     // News Component Style
+    .NewsComponent__Div{
+      &__OurPartners__Div{
+        &-parent{
+          img{
+            width: 10rem;
+            height: 3rem;
+          }
+        }
+      }
+    }
+    
     
     // Footer
     .footer-contact {
