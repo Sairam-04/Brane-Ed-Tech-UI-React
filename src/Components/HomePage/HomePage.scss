@@ -13,6 +13,11 @@ $color12: #B5B5B5;
 $color13: #9AA7BF;
 $color14: #F6F5F4;
 $color15: #141B5F;
+$color16: #e3e3e3;
+$color17: #9e9d9d;
+$footer-bg-color: #0A1046;
+$footer-bottom-bg-color: #1f389a;
+$color18: #323A86;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
@@ -300,7 +305,7 @@ body {
 .OurProject__Div{
     background-color: $color15;
     &__heading{
-      color: #FBFFB9;
+      color: $color11;
       text-align: center;
       padding: 1rem;
     }
@@ -326,7 +331,7 @@ body {
         }
   
         &-heading{
-          color: #E4E4E4;
+          color: $color3;
           font-size: 1.1rem;
           padding-top: 1rem;
           text-align: left;
@@ -337,7 +342,7 @@ body {
           font-size: 1rem;
           text-align: left;
           font-weight: 200;
-          color: #A0A5D1;
+          color: $color6;
         }
       }
   
@@ -348,8 +353,8 @@ body {
 
 
 .LeadersVoice__Div{
-    padding: 1rem 0;
-    background-color: #323A86;
+    padding: 1rem 0 2.5rem 0;
+    background-color: $color18;
     &__heading{
         font-size: 2rem;
         text-align: center;
@@ -362,15 +367,229 @@ body {
         align-items: center;
         width: 80%;
         margin: 0 auto;
+        flex-direction: row-reverse;
         &-text{
             width: 50%;
             margin: 0 auto;
             text-align: justify;
             font-size: .9rem;
             color: $color6;
+            
+        }
+
+        &-video{
+            video{
+                width: 100%;
+                height: 34vh;
+                border-radius: .5rem;
+            }
         }
     }
 }
+
+
+// Support Languages Styling
+.LanguagesComp__Div{
+    text-align: center;
+    padding: 1rem 0;
+    &-heading{
+      font-size: 1.25rem;
+      color: $color11;
+    }
+    &-carousel {
+      width: 100%;
+      padding: 2rem 0;
+      &-slide {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 1.25rem;
+        button{
+          background-color: $color13;
+          border-radius: 0.25rem;
+          padding: .25rem .75rem;
+          color: $color15;
+          font-size: 1rem;
+          border: none;
+          // width: 7.5vw;
+        }
+      }
+    }
+  }
+  
+// Support Languages Styling
+
+// News Component Styling
+.Articles__Div {
+  padding: 2rem 0;
+  background-color: $color10;
+  &__slide {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    &-Heading {
+      width: 50%;
+      color: $color3;
+    }
+    &-Para {
+      width: 50%;
+      margin: 0;
+      color: $color3;
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+}    
+// News Component Styling
+
+// Footer Styling
+
+.Footer__Div {
+    background: $footer-bg-color;
+    padding: 2rem 0;
+    #footer {
+      color: $color16;
+      font-size: .75rem;
+      width: 80%;
+      margin: 0 auto;
+      .footer-top {
+        width: 100%;
+      }
+      .row {
+        .col-lg-2,
+        .col-md-6 {
+          &.footer-links {
+            h4 {
+              font-size: 1rem; // Equivalent to 18px
+              font-weight: bold;
+              color: $color16;
+              margin-bottom: 1rem; // Equivalent to 16px
+              position: relative;
+              text-decoration: none;
+  
+              &:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                //   width: 2rem; // Equivalent to 32px
+                height: 0.125rem; // Equivalent to 2px
+                background-color: $color16;
+              }
+            }
+  
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+  
+              li {
+                margin-bottom: 0.5rem; // Equivalent to 8px
+  
+                a {
+                  color: $color17;
+                  text-decoration: none;
+                  transition: color 0.3s ease;
+                }
+  
+                a:hover {
+                  color: $color10;
+                }
+              }
+            }
+          }
+        }
+  
+        .dropdown:hover .dropdown-menu {
+          display: block;
+        }
+  
+        .dropdown-menu {
+          display: none;
+          position: absolute;
+          bottom: -212px;
+          left: 96px;
+          padding: 0.5rem 0;
+          background-color: $color10;
+          border: 1px solid #ccc;
+          z-index: 10;
+          max-height: 79vh;
+          font-size: 0.8rem;
+        }
+  
+        .dropdown-menu li {
+          padding: 0.5rem;
+        }
+  
+        .dropdown-menu li:hover {
+          background-color: $color16;
+        }
+  
+  
+        .footer-contact {
+          h4 {
+            font-size: 1rem; // Equivalent to 16px
+            font-weight: bold;
+            color: $color16;
+            position: relative;
+            padding-bottom: 0.75rem; // Equivalent to 12px
+            text-decoration: none;
+          }
+  
+          p {
+            line-height: 1.5rem; // Equivalent to 24px
+            color: $color17;
+          }
+  
+          a {
+            color: $color17;
+            text-decoration: none;
+          }
+  
+          address {
+            color: $color17;
+          }
+  
+          .social-links {
+            display: flex;
+            gap: 0.5rem;
+          }
+        }
+  
+        a {
+          color: $color17;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  
+  .footer__bottom__div{
+    background-color: $color10;
+    &-child1{
+      display: flex;
+      padding: 1rem 0;
+      width: 80%;
+      margin: 0 auto;
+      &-privacy-links{
+        a{
+          color: $color3;
+          text-decoration: none;
+          font-size: .8rem;
+          padding-left: .25rem;
+        }
+      }
+      &-copyright{
+        font-size: .9rem;
+      }
+    }
+  }
+// Footer Styling
 
 
 // Home Page Media Queries
@@ -480,4 +699,81 @@ body {
           }
         }
     }
+
+    .LeadersVoice__Div{
+        &__content{
+            flex-direction: column-reverse;
+            width: 100%;
+            &-text{
+                padding-bottom: 2rem;
+            }
+    
+            &-video{
+                width: 100%;
+                video{
+                    width: 52%;
+                    height: 44vh;
+                    border-radius: 0.5rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    // Support Languages Div
+
+    .LanguagesComp__Div{
+        &-heading{
+          font-size: 1rem;
+        }
+        &-carousel {
+          &-slide {
+            width: 100%;
+            overflow-x: auto;
+            button{
+              padding: .25rem .75rem;
+              font-size: 1rem;
+            }
+          }
+        }
+    }
+    // News Component Style
+
+    // News Component Style
+    
+    // Footer
+    .footer-contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .footer-contact .contact-section {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    
+      .footer-contact .follow-section {
+        width: 100%;
+      }
+    
+      .footer-contact h4 {
+        width: 100%;
+      }
+    
+      .footer__bottom__div{
+        padding: 1rem;
+        &-child1{
+          width: 100%;
+          &-privacy-links{
+            text-align: center;
+            a{
+              font-size: .7rem;
+            }
+          }
+          &-copyright{
+            font-size: .8rem;
+          }
+        }
+     }
 }

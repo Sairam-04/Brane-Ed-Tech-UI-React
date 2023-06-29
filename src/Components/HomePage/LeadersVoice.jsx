@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-// import './Leader.css'
 import video1 from '../../assets/video1.mp4'
 
 const LeadersVoice = () => {
@@ -26,7 +25,7 @@ const LeadersVoice = () => {
                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className="LeadersVoice__Div__content-video">
-                <video width="380" height="200" controls >
+                <video controls >
                   <source src={video1} type="video/mp4" />
                 </video>
               </div>
@@ -39,7 +38,7 @@ const LeadersVoice = () => {
                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className="LeadersVoice__Div__content-video">
-                <video width="380" height="200" controls >
+                <video controls >
                   <source src={video1} type="video/mp4" />
                 </video>
               </div>
@@ -52,7 +51,7 @@ const LeadersVoice = () => {
                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className="LeadersVoice__Div__content-video">
-                <video width="380" height="200" controls >
+                <video controls >
                   <source src={video1} type="video/mp4" />
                 </video>
               </div>
@@ -65,7 +64,7 @@ const LeadersVoice = () => {
                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
               <div className="LeadersVoice__Div__content-video">
-                <video width="380" height="200" controls >
+                <video controls >
                   <source src={video1} type="video/mp4" />
                 </video>
               </div>

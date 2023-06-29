@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.Articles__Div {
+  padding: 2rem 0;
+  background-color: #1f389a;
+}
+.Articles__Div__slide {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+.Articles__Div__slide-Heading {
+  width: 50%;
+  color: white;
+  text-align: right;
+}
+.Articles__Div__slide-Para {
+  width: 50%;
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+}/*# sourceMappingURL=CarouselComponent.css.map */
