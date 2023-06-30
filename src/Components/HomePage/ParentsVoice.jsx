@@ -40,6 +40,8 @@ const Parentscarousel = () => {
           showThumbs={false}
           showIndicators={false}
           infiniteLoop={true}
+          autoPlay={true}
+          interval={4000}
         >
           <div className="ParentsVoice__Div__carousel-row">
             <div className="ParentsVoice__Div__carousel-row-card1">

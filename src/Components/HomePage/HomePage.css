@@ -218,6 +218,7 @@ body {
 .ourfeaturecomp1 {
   display: flex;
   padding-top: 2rem;
+  margin-top: 2rem;
 }
 .ourfeaturecomp1-img img {
   width: 25vw !important;
@@ -430,6 +431,7 @@ body {
 .LanguagesComp__Div {
   text-align: center;
   padding: 1rem 0;
+  background-color: #323A86;
 }
 .LanguagesComp__Div-heading {
   font-size: 1.25rem;
@@ -457,7 +459,7 @@ body {
 
 .NewsComponent__Div__Articles__Div {
   padding: 2rem 0;
-  background-color: #1F389A;
+  background-color: #101868;
 }
 .NewsComponent__Div__Articles__Div__slide {
   display: flex;

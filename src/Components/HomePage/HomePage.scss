@@ -271,6 +271,7 @@ body {
 .ourfeaturecomp1 {
     display: flex;
     padding-top: 2rem;
+    margin-top: 2rem;
 
     &-img img {
         width: 25vw !important;
@@ -503,6 +504,7 @@ body {
 .LanguagesComp__Div{
     text-align: center;
     padding: 1rem 0;
+    background-color: $color18;
     &-heading{
       font-size: 1.25rem;
       color: $color11;
@@ -535,7 +537,7 @@ body {
 .NewsComponent__Div{
   &__Articles__Div {
     padding: 2rem 0;
-    background-color: $color10;
+    background-color: $color19;
     &__slide {
       display: flex;
       width: 80%;
