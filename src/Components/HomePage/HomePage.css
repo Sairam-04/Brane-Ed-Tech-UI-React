@@ -316,6 +316,117 @@ body {
   height: 34vh;
 }
 
+.ParentsComponent {
+  width: 100%;
+  background-color: #101868;
+}
+
+.ParentsVoice__Div {
+  width: 80%;
+  padding: 2.5rem 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.ParentsVoice__Div__title {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.ParentsVoice__Div__carousel-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.ParentsVoice__Div__carousel-row-card1 {
+  background-color: #FFFFFF;
+  width: 22vw;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  position: relative;
+}
+.ParentsVoice__Div__carousel-row-card1-image {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -2.4rem;
+}
+.ParentsVoice__Div__carousel-row-card1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ParentsVoice__Div__carousel-row-card1-text-name {
+  padding-top: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1b5079;
+  margin: 0;
+}
+.ParentsVoice__Div__carousel-row-card1-text-desc {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9c9c9c;
+  margin: 0;
+}
+.ParentsVoice__Div__carousel-row-card1-text-review {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #5c5d60;
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.custom-carousel .carousel .slider-wrapper {
+  overflow: visible;
+}
+
+.custom-carousel .carousel .slider-wrapper .slider .slide {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-custom-arrow {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-custom-arrow img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel.carousel-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel.carousel-slider .carousel-status,
+.carousel.carousel-slider .carousel-control-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel.carousel-slider .carousel-control-arrow.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel.carousel-slider .carousel-control-arrow.carousel-control-next {
+  right: -50px;
+}
+
 .LanguagesComp__Div {
   text-align: center;
   padding: 1rem 0;
@@ -617,6 +728,12 @@ body {
     height: 44vh;
     border-radius: 0.5rem;
     margin: 0;
+  }
+  .ParentsVoice__Div {
+    width: 90%;
+  }
+  .carousel-item {
+    width: 100%;
   }
   .LanguagesComp__Div-heading {
     font-size: 1rem;

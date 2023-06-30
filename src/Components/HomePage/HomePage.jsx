@@ -17,7 +17,7 @@ const HomePage = () => {
         <Features />
         <Ourproject />
         <LeadersVoice />
-        {/* <ParentsVoice /> */}
+        <ParentsVoice />
         <LanguagesComponent />
         <NewsComponent/>
         <Footer />

@@ -77,13 +77,13 @@ const NewsComponent = () => {
           </Carousel>
         </div>
         <div className="NewsComponent__Div__BoardsLogoDiv">
-          <img src={boardimg1} alt="" srcset="" />
-          <img src={boardimg2} alt="" srcset="" />
-          <img src={boardimg3} alt="" srcset="" />
-          <img src={boardimg4} alt="" srcset="" />
-          <img src={boardimg5} alt="" srcset="" />
-          <img src={boardimg6} alt="" srcset="" />
-          <img src={boardimg7} alt="" srcset="" />
+          <img src={boardimg1} alt="" />
+          <img src={boardimg2} alt="" />
+          <img src={boardimg3} alt="" />
+          <img src={boardimg4} alt="" />
+          <img src={boardimg5} alt="" />
+          <img src={boardimg6} alt="" />
+          <img src={boardimg7} alt="" />
         </div>
 
         <div className='NewsComponent__Div__OurPartners__Div'>

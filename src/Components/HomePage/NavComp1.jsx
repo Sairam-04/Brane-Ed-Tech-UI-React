@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import branelogo from '../../assets/branelogo.png';
+import NavData from "../../assets/Json_Data/nav.json"
 
 const NavComp1 = () => {
   const [activeLink, setActiveLink] = useState('Home');
-
+  const {navData} = NavData;
+  console.log(navData)
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
